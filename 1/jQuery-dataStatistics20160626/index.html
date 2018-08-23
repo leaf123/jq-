@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>dataStatisticsddd</title>
+<link rel="stylesheet" href="style/number_animate.css" media="screen" type="text/css" />
+</head>
+<body>
+	<div class="tj_top"></div>
+  <div class="tj_tit"></div>
+	
+	<div class="dataStatistics">
+  	<div class="digit_set"></div>
+  	<div class="digit_set"></div>
+  	<div class="digit_set"></div>
+  	<div class="digit_set"></div>
+  	<div class="digit_set"></div>
+  	<div class="digit_set set_last"></div>
+ </div>
+ 
+	<div class="tj_foot"></div>
+
+  <script src="http://www.jq22.com/jquery/1.11.1/jquery.min.js"></script>
+  <script src="js/jquery.dataStatistics.js"></script>
+  <script>
+  $(document).ready(function(){
+  	$('.dataStatistics').dataStatistics({min:0,max:150,time:30000,len:5});
+    /*min：起始数 max：终止数 time：总时间 len：几位数字（根据前面添加<div class="digit_set"></div>）
+*/
+  });
+  </script>
+</body>
+
+</html>
