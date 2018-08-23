@@ -1,5 +1,5 @@
 /**
- * 数字滚动js
+ * 数字滚动jsii
  * @param {Object} $
  */
 (function($) {
